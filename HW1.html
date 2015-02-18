@@ -1,0 +1,169 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>Columbia University Authentication</title>
+    
+        
+        
+            
+            <link type="text/css" rel="stylesheet" href="css/cas.css"/>
+            <link type="text/css" rel="stylesheet" href="/cas/css/columbia.css"/>
+        
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="icon" href="/cas/favicon.ico" type="image/x-icon"/>
+</head>
+<body id="cas" class="fl-theme-iphone">
+<div class="flc-screenNavigator-view-container">
+    <div class="fl-screenNavigator-view">
+        <div id="header" class="flc-screenNavigator-navbar fl-navbar fl-table">
+            <!--<h1 id="app-name" class="fl-table-cell">Central Authentication Service (CAS)</h1>-->
+        </div>
+        
+        <div id="content" class="fl-screenNavigator-scroll-container">
+
+
+
+
+
+
+ <!-- START Message text. -->
+<div align="center" style="clear: both; background-color: #FFFFFF;">
+ <table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+<td align="left" style="font-size:13px; color: #104E8B;" >
+<em>
+	Be aware of "phishing" emails. CUIT will never ask for your<br/>
+	password or private personal information via email. Use the<br/>
+	main Columbia home page to navigate to password services.<br/>
+	Click <a target="_blank" href="http://cuit.columbia.edu/cuit/it-security-practices/phishing-scams-spam">here</a> for more information.
+</em>
+</td>
+</tr>
+</table>
+</div>
+<br/><br/><br/>
+<!-- END Message text. --> 
+
+
+
+
+  <div class="box fl-panel" id="login">
+  	<!-- temp logo -->
+  	<img src="login_files/logo-courseworks.gif" alt="sakai" />
+  	<!-- end temp logo -->
+			<form id="fm1" class="fm-v clearfix" action="/cas/login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer" method="post">
+				
+                  
+
+                    <div class="row fl-controls-left text-field">
+                        <label for="username" class="fl-label username-label"><span class="accesskey">U</span>NI:</label>
+						
+
+						
+						
+						<input id="username" name="username" class="required" tabindex="8" accesskey="u" type="text" value="" size="25" autocomplete="false"/>
+						
+                    </div>
+                    <div class="row fl-controls-left text-field">
+                        <label for="password" class="fl-label password-field"><span class="accesskey">P</span>assword:</label>
+						
+						
+						<input id="password" name="password" class="required" tabindex="9" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+                    </div>
+
+                    
+
+                    <div class="row btn-row">
+						<input type="hidden" name="lt" value="LT-46133-MMze9rzh9ZuekiYzlvOU0pNa0OBW47" />
+						<input type="hidden" name="execution" value="e1s1" />
+						<input type="hidden" name="_eventId" value="submit" />
+
+
+
+                
+               
+               
+
+                        <input class="btn-submit" name="submit" accesskey="l" value="LOGIN" tabindex="11" type="submit" />
+                        <input class="btn-reset" name="reset" accesskey="c" value="CLEAR" tabindex="12" type="reset" />
+                    </div>
+
+
+            </form>
+          </div>
+            <!--<div id="sidebar">
+                <p class="fl-panel fl-note fl-bevel-white fl-font-size-80">For security reasons, please Log Out and Exit your web browser when you are done accessing services that require authentication!</p>
+                <div id="list-languages" class="fl-panel">
+                
+					
+                    
+                  <h3>Languages:</h3>
+                  
+                     
+                     
+                        
+						<ul
+							><li class="first"><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=en">English</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=es">Spanish</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=fr">French</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=ru">Russian</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=nl">Nederlands</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=sv">Svenskt</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=it">Italiano</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=ur">Urdu</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=zh_CN">Chinese (Simplified)</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=de">Deutsch</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=ja">Japanese</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=hr">Croatian</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=cs">Czech</a></li
+							><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=sl">Slovenian</a></li
+                            ><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=ca">Catalan</a></li
+                            ><li><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=mk">Macedonian</a></li
+							><li class="last"><a href="login?service=https%3A%2F%2Fcourseworks.columbia.edu%2Fsakai-login-tool%2Fcontainer&locale=pl">Polish</a></li
+						></ul>
+                     
+                   
+                </div>-->
+            </div>
+
+                </div>
+                <div id="footer" class="fl-panel fl-note fl-bevel-white fl-font-size-80">
+                
+                    <div style="font-size:12px; color: #104E8B;"><p>By using these resources, you agree to abide by </br>Columbia University's 
+                    <a href="http://policylibrary.columbia.edu/acceptable-usage-information-resources-policy">Acceptable 
+                    Usage of Information Resources Policy</a>.</p></br></div>
+                
+                	<p>Maintained by CUIT. Please contact the <a href="http://www.columbia.edu/acis/support/">Helpdesk</a> if you have trouble logging in.</p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/cas/js/cas.js"></script>
+    </body>
+</html>
+
